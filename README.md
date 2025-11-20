@@ -69,10 +69,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/helepage.heic" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/helepage.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dynamics.heic " width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/dynamics.png " width="375px" alt="breakdown van een dynamisch deel">
 
 
 </details>
@@ -115,10 +115,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
   | Kris           | Anastasia          | Yuzhong      | Eme              |
-  | verloopt goed  | vragen over        | ---          | Wanneer welke    |
+  | ---            | ---                | ---          | ---              |
+  | verloopt goed  | vragen over        |              | Wanneer welke    |
   | alleen vraag   | buttons & headers. | en ik dit    | elementen        |
   | over           | als er tijd is     | nog een punt | gebruiken        |
-  | zoekbalk       | hamburgermenu      | ...          | ...              |
+  | zoekbalk       | hamburgermenu      | ...          | ...              | 
 
 
   ### Verslag van meeting
