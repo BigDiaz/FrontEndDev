@@ -52,12 +52,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  -Veel errors
-  -Heading elements niet in goede volgorde
-  -Geen gebruik van transition
-  -Geen pauze knop video
-  -Bij voorlezen screen reader heb je bij: view all geen idee wat je gaat bekijken
-  -Bij tabben worden sommige buttons niet gehighlight
+  - Veel errors
+  - Heading elements niet in goede volgorde
+  - Geen gebruik van transition
+  - Geen pauze knop video
+  - Bij voorlezen screen reader heb je bij: view all geen idee wat je gaat bekijken
+  - Bij tabben worden sommige buttons niet gehighlight
 
 </details>
 
@@ -102,13 +102,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/home-footer.png" width="375px" alt="">
 
   Wat goed ging: 
-   -gelukkig niet alles vergeten over html
-   -volgensmij een best goeie basis gecodeerd voor de website (hopelijk semantisch correct)
-   -Niet een al te moeilijke pagina om te coderen (denk ik), maar visueel prettig naar te kijken 
+   - gelukkig niet alles vergeten over html
+   - volgensmij een best goeie basis gecodeerd voor de website (hopelijk semantisch correct)
+   - Niet een al te moeilijke pagina om te coderen (denk ik), maar visueel prettig naar te kijken 
 
   Wat lastig is: 
-   -Wanneer moet ik bepaalde html elementen nou precies gebruiken? Wanner list? Hoe nav? Header voor buttons? etc..
-   -Wat moet ik functioneel maken?
+   - Wanneer moet ik bepaalde html elementen nou precies gebruiken? Wanner list? Hoe nav? Header voor buttons? etc..
+   - Wat moet ik functioneel maken?
 
 
   ### Agenda voor meeting
