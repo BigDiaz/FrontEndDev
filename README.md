@@ -52,7 +52,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  -Veel errors
+  -Heading elements niet in goede volgorde
+  -Geen gebruik van transition
+  -Geen pauze knop video
+  -Bij voorlezen screen reader heb je bij: view all geen idee wat je gaat bekijken
+  -Bij tabben worden sommige buttons niet gehighlight
 
 </details>
 
@@ -64,13 +69,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/helepage.heic" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/dynamics.heic " width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -86,15 +89,36 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  ### Header gedeelte pagina: 
+  <img src="readme-images/home-header.png" width="375px" alt="">
+
+  ### Article: 
+  <img src="readme-images/home-article.png" width="375px" alt="">
+
+  ### Video: 
+  <img src="readme-images/home-video.png" width="375px" alt="">
+
+  ### Footer gedeelte pagina: 
+  <img src="readme-images/home-footer.png" width="375px" alt="">
+
+  Wat goed ging: 
+   -gelukkig niet alles vergeten over html
+   -volgensmij een best goeie basis gecodeerd voor de website (hopelijk semantisch correct)
+   -Niet een al te moeilijke pagina om te coderen (denk ik), maar visueel prettig naar te kijken 
+
+  Wat lastig is: 
+   -Wanneer moet ik bepaalde html elementen nou precies gebruiken? Wanner list? Hoe nav? Header voor buttons? etc..
+   -Wat moet ik functioneel maken?
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Kris           | Anastasia          | Yuzhong      | Eme              |
+  | verloopt goed  | vragen over        | ---          | Wanneer welke    |
+  | alleen vraag   | buttons & headers. | en ik dit    | elementen        |
+  | over           | als er tijd is     | nog een punt | gebruiken        |
+  | zoekbalk       | hamburgermenu      | ...          | ...              |
 
 
   ### Verslag van meeting

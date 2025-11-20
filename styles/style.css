@@ -29,3 +29,18 @@
 
 /* jouw code */
 
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+video{
+	width: 100%;
+  	height: auto;
+}
+
+ul
+{
+list-style-type: none;
+}
