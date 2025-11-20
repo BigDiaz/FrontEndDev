@@ -35,11 +35,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.racerworldwide.net/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Racerworldwide 
+  Racerworldwide home page
   <img src="readme-images/racer-home.png" width="375px" alt="homepageracerworldwide">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Racerworldwide  
+  Racerworldwide product page
   <img src="readme-images/racer-product.png" width="375px" alt="productpageracerworldwide">
  
 </details>
