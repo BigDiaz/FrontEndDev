@@ -6,10 +6,6 @@ Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal
 
 Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
 
-
-
-
-
 ## Jij
 
 <details open>
@@ -125,8 +121,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - H1 beste maken op welke pagina je je bevind
+  - Wat algemene punten over html
   - nog een punt
   - ...
 
@@ -148,18 +144,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | student 1      | student 2          | student 3    | Eme              |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | dit bespreken  | en dit             | en ik dit    | Ul's gebruiken?  |
+  | en dat ook nog | dit als er tijd is | nog een punt | Hoe kan ik de    |
+  |                |                    |              | grid layout het  |
+  |                |                    |              | beste aanpakken  |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - Inderdaar ul en li items gebruiken voor de artiekelen
+  - Grid template met fractions beste voor grid layout
   - nog een punt
 - ...
 
@@ -176,6 +174,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - Aria labels gebruiken voor buttons en links die op zich zelf niet genoeg context bieden
+  - Video stond nog op autoplay
+  -
+  - Heading levels in orde
+  - Code semantisch correct (geen errors meer)
+  - Focus states toegevoegd
+
 
 </details>
 
@@ -222,19 +227,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/finaldetail-mobile.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/finalmain-mobile.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/finalmain-desktop.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/finaldetail-desktop.png" width="375px" alt="uitomst opdracht 1">
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+  
+  Ik heb vooral geleerd hoe ik een website responsive kan maken aan de hand van flexbox en grid. Dit vond ik best moeilijk bij coderen vorig jaar dus ik ben blij dat ik het nu beter kan.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+
+
+  <img src="readme-images/1.png" width="375px" alt="top">
+  <img src="readme-images/2.png" width="375px" alt="top">
+  <img src="readme-images/3.png" width="375px" alt="top">
+  <img src="readme-images/4.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Eigenlijk is alles wat ik wou doen wel gelukt. Ik wou eigenlijk eerst een hamburgermenu maken maar dat vond ik een beetje moeilijk om op mijn eigen pagina toe te passen dus heb ik maar de add to cart gemaakt. 
 </details>
 
 
@@ -250,8 +264,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Flexbox oefening 2, link: https://codepen.io/shooft/live/wBKyoWx
+  2. Grid oefening 3, link: https://codepen.io/shooft/pen/ogjpvYo
+  3. JS - Oefening 3, link: https://codepen.io/shooft/pen/raOpRBm
 
 </details>

@@ -1,0 +1,631 @@
+/* Algemene styling */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: 110px;
+    font-family: roboto;
+}
+
+img,
+video {
+    width: 100%;
+}
+
+/* Header styling */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8em 2em;
+    /* padding boven&onder links&rechts  */
+
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+    list-style: none;
+}
+
+header>ul li:nth-of-type(4) {
+    display: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 0.1em;
+}
+
+header button span {
+    position: absolute;
+    top: -0.3em;
+    right: -0.5em;
+    min-width: 1.25em;
+    padding: 0.2em 0.4em; 
+    
+    background-color: black;
+    border-radius: 1em; 
+    font-size: 0.9em;
+    font-weight: bold;
+    color: white;
+    line-height: 1; 
+}
+
+header ul button img {
+    width: 1.8em;
+}
+
+header ul button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0.3em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header h1 a {
+    font-weight: 500;
+    font-size: 1em;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: black;
+}
+
+header>a,
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    transform: scale(1, 1.1);
+
+    font-weight: 500;
+    font-size: 2em;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: black;
+}
+
+/* Hoofdpagina styling */
+
+/* Shop men shop women */
+
+body:not(.detailpag) main nav img {
+    display: block;
+}
+
+body:not(.detailpag) main nav img:nth-of-type(2) {
+    display: none;
+}
+
+body:not(.detailpag) main nav {
+    position: relative;
+    text-align: center;
+}
+
+body:not(.detailpag) main nav a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 10em;
+    padding: 0.7em;
+    color: white;
+    backdrop-filter: blur(3px);
+}
+
+body:not(.detailpag) main nav a:first-of-type {
+    top: 40%;
+}
+
+body:not(.detailpag) main nav a:last-of-type {
+    top: 55%;
+}
+
+
+/* Artiekelen */
+
+main {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+body:not(.detailpag) main>section div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5em;
+}
+
+body:not(.detailpag) main>section div h2 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+body:not(.detailpag) main>section div a {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: black;
+}
+
+body:not(.detailpag) main>section div a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 0.1em;
+}
+
+body:not(.detailpag) main>section ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+}
+
+body:not(.detailpag) main>section ul li {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: max-content max-content max-content;
+}
+
+body:not(.detailpag) main>section ul li img {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+
+    padding-bottom: 0.5em;
+}
+
+body:not(.detailpag) main>section ul li a {
+    display: contents;
+    text-decoration: none;
+    color: inherit;
+}
+
+body:not(.detailpag) main>section ul li h3 {
+    margin-left: 0.5em;
+    grid-column-start: 1;
+    align-self: end;
+
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+body:not(.detailpag) main>section ul li p {
+    margin-left: 0.5em;
+    grid-column-start: 1;
+    align-self: start;
+    padding-bottom: 1em;
+
+    font-size: 0.7em;
+}
+
+main>section ul li button {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    align-self: end;
+    justify-self: right;
+
+    width: 2em;
+    border: none;
+    background: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    z-index: 1;
+}
+
+body:not(.detailpag) main>section div:last-of-type {
+    padding-top: 1.5em;
+}
+
+
+/* Detail pagina styling */
+
+/* Afbeelding selector */
+
+.detailpag main>div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    gap: min(2vw, 1.5em);
+}
+
+.detailpag main>div:first-of-type ul {
+    display: flex;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.detailpag main>div:first-of-type ul li {
+    flex-basis: 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    list-style: none;
+}
+
+.detailpag main>div:first-of-type nav {
+    display: flex;
+    gap: 1em;
+}
+
+/* Product informatie */
+
+.detailpag main>section h1 {
+    padding-top: 0.8em;
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+
+.detailpag main>section p {
+    font-size: 0.8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.detailpag main>section h2,
+h3 {
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+.detailpag main>section:last-of-type h2 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.detailpag main>section div {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6em, 1fr));
+    gap: 0.8em;
+    justify-content: start;
+}
+
+.detailpag main>section div button {
+    padding: 0.75em 1em;
+    border-radius: 0.75em;
+
+    background: white;
+    border: 1px solid lightgrey;
+    font-size: 0.8em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.detailpag main>section div button:last-child {
+    grid-column: 1 / -1;
+    margin-top: 0.5em;
+
+    height: 4em;
+}
+
+.detailpag main>section div button:not(:last-child):focus {
+    border-color: black;
+}
+
+.detailpag main section ul:first-of-type {
+    padding-left: 1.5em;
+    font-size: 0.8em;
+}
+
+.detailpag main section table th {
+    text-align: left;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+
+    font-size: 0.8em;
+}
+
+.detailpag main section table td {
+    text-align: left;
+    padding-right: 1em;
+
+    font-size: 0.8em;
+}
+
+.detailpag main>section:last-of-type ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+    padding-top: 2em;
+}
+
+.detailpag main>section:last-of-type ul li {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: max-content max-content max-content;
+}
+
+.detailpag main>section:last-of-type ul li img {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+
+    padding-bottom: 0.5em;
+}
+
+.detailpag main>section:last-of-type ul li a {
+    display: contents;
+    text-decoration: none;
+    color: inherit;
+}
+
+.detailpag main>section:last-of-type ul li h4 {
+    margin-left: 0.5em;
+    grid-column-start: 1;
+    align-self: end;
+
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.detailpag main>section:last-of-type ul li p {
+    margin-left: 0.5em;
+    grid-column-start: 1;
+    align-self: start;
+    padding-bottom: 1em;
+
+    font-size: 0.8em;
+}
+
+.detailpag main>section:last-of-type ul li button {
+    font-size: 2em;
+}
+
+.detailpag main section:first-of-type {
+    max-width: 35em;
+}
+
+/* Footer styling */
+
+footer {
+    padding: 0.5em 1em;
+}
+
+hr {
+    margin-bottom: 0.5em;
+    border-style: solid;
+    color: lightgray;
+}
+
+footer ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 0.8em;
+}
+
+
+/* focus states */
+
+a:focus-visible, button:focus-visible {
+  outline: 3px solid red;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+li:focus-within img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+main> section ul li img:hover {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+/* Media queries */
+/* Header */
+
+@media (width < 1200px) {
+
+    header nav ul li:nth-of-type(5) {
+        display: none;
+    }
+}
+
+@media (width < 1000px) {
+
+    header nav ul li:nth-of-type(4) {
+        display: none;
+    }
+}
+
+@media (width < 760px) {
+
+    header {
+        padding: 1em 1em;
+    }
+
+    header nav:first-of-type {
+        display: none;
+    }
+
+
+    header ul {
+        width: 100%;
+    }
+
+    header>ul li:nth-of-type(4) {
+        /* hamburgermenu */
+        display: block;
+    }
+
+    header>ul li:nth-of-type(1) {
+        /* search */
+        order: 1;
+    }
+
+    header>ul li:nth-of-type(2) {
+        /* winkelwagen */
+        order: 3;
+        margin-left: auto;
+    }
+
+    header>ul li:nth-of-type(3) {
+        /* account */
+        order: 2;
+        margin-right: auto;
+    }
+
+    header>ul li:nth-of-type(4) {
+        /* hamburgermenu */
+        order: 4;
+    }
+}
+
+/* Hoofdpagina */
+
+@media (width > 760px) {
+    body:not(.detailpag) main>section ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1em;
+        padding: 1.5em;
+    }
+
+    body:not(.detailpag) main>section div {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    body:not(.detailpag) main nav {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    body:not(.detailpag) main nav img:last-of-type {
+        display: block;
+    }
+
+    body:not(.detailpag) main nav img {
+        width: 40%;
+        display: block;
+        position: relative;
+    }
+
+    body:not(.detailpag) main nav a:first-of-type {
+        left: 30%;
+        top: 50%;
+    }
+
+    body:not(.detailpag) main nav a:last-of-type {
+        left: 70%;
+        top: 50%;
+    }
+}
+
+/* Productpagina */
+
+@media (width > 760px) {
+    .detailpag main>section:last-of-type ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1em;
+        padding: 1.5em;
+    }
+
+    .detailpag main>section div {
+        grid-template-columns: repeat(auto-fill, minmax(8em, 1fr));
+    }
+
+    .detailpag main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    .detailpag main section:first-of-type {
+        padding-left: 5em;
+    }
+
+    .detailpag main section:last-of-type {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+}
+
+/* image selector */
+
+@media (width > 1100px) {
+    .detailpag main>div:first-of-type {
+        flex-direction: row;
+    }
+
+    .detailpag main>div:first-of-type nav {
+        flex-basis: min(14.4%, 8em);
+        flex-shrink: 0;
+        flex-direction: column;
+    }
+
+    .detailpag main>div:first-of-type ul {
+        order: -1;
+    }
+
+}
+
+/* Footer */
+
+@media (width > 760px) {
+    footer {
+        padding: 1em;
+    }
+
+    footer hr {
+        margin-bottom: 2em;
+    }
+
+    footer ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2em;
+    }
+}
+
+
+/* 
+    Bronnen:
+    Flexbox oefening 2, link: https://codepen.io/shooft/live/wBKyoWx
+    Grid oefening 3, link: https://codepen.io/shooft/pen/ogjpvYo
+
+*/
