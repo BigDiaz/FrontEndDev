@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 504.47 452.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #010101;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 30px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="ic-ecommerce-basket">
+      <path class="cls-1" d="M392.8,437.4H111.68c-15.6.01-29.2-10.63-32.93-25.77L15.5,158.43c-2.24-8.95,3.2-18.02,12.15-20.26,1.33-.33,2.7-.5,4.08-.5h441.01c9.23-.01,16.72,7.46,16.73,16.68,0,1.38-.17,2.75-.5,4.08l-63.24,253.2c-3.74,15.15-17.33,25.79-32.93,25.77Z"/>
+      <line class="cls-1" x1="199.74" y1="15" x2="130.53" y2="137.66"/>
+      <line class="cls-1" x1="297.1" y1="15" x2="366.55" y2="137.66"/>
+    </g>
+  </g>
+</svg>
